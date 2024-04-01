@@ -10,9 +10,9 @@ If you have any problem with Mac, let me know!
 install with:
 
 ```bash
-tar -xzvf ns-allinone-2.35-eda.tar.gz
 sudo apt-get update
-sudo apt-get install build-essential autoconf automake libxmu-dev
+sudo apt-get install build-essential autoconf automake libxmu-dev xorg-dev
+tar -xzvf ns-allinone-2.35-eda.tar.gz
 cd ns-allinone-2.35-eda
 ./install
 ```
