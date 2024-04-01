@@ -1,13 +1,12 @@
-Modified ns2.35 for ARM and x86 platform without gcc4.8 and g++4.8
+# Modified ns2.35 for ARM and x86 platform without gcc4.8 and g++4.8
 
-Try this package I modified (this package could be used directly)
 
+
+## Install
+Download the [`tar.gz`](ns-allinone-2.35-eda.tar.gz) package, 
 Alternative download: [Google Drive](https://drive.google.com/file/d/1uldwUqbAjQJfaxkRmQYKze3cONfrxip9/view)
 
-Unfortunately, I don't have any Apple device. I tested with my Samsung Phone on Snapdragon 8+gen1 with Android 14, using Termux environment to run Ubuntu 22.04. Also my Intel x86 PC with Ubuntu22.04 installed without any problem. 
-If you have any problem with Mac, let me know!
-
-install with:
+Then install with:
 
 ```bash
 sudo apt-get update
@@ -17,7 +16,13 @@ cd ns-allinone-2.35-eda
 ./install
 ```
 
-Modifications:
+## Notes:
+Try this package I modified (this package could be used directly).
+
+I've tested with my Samsung Phone on Snapdragon 8+gen1 with Android 14, using Termux environment to run Ubuntu 22.04. Also my Intel x86 PC with Ubuntu22.04 installed without any problem. My friend tested on M series MacBook and also succeed.
+If you have any problem with Mac, let me know!
+
+## Modifications:
 
 ns-2.35/Makefile.in
 
