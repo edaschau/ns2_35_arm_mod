@@ -14,6 +14,7 @@ sudo apt-get install build-essential autoconf automake libxmu-dev xorg-dev
 tar -xzvf ns-allinone-2.35-eda.tar.gz
 cd ns-allinone-2.35-eda
 ./install
+./env_config.sh
 ```
 
 ## Notes:
