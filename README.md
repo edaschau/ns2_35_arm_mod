@@ -6,7 +6,9 @@
 Download the [`tar.gz`](ns-allinone-2.35-eda.tar.gz) package, 
 Alternative download: [Google Drive](https://drive.google.com/file/d/1uldwUqbAjQJfaxkRmQYKze3cONfrxip9/view)
 
-Then install with:
+If you've deleted .bashrc in your home folder (Normally you shouldn't delete this!), please recreate this file!
+Please place the tar.gz package under your home folder or anywhere you want to install, then right click the folder `Open in terminal`, press `ctrl+shift+v` to paste the following commands into your terminal. 
+Then install with (the following script is only what you need! Including automatically configure PATH):
 
 ```bash
 sudo apt-get update
